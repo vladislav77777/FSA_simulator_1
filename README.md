@@ -1,17 +1,17 @@
 # FSA_simulator_1
 <b>Implement an FSA validator.</b> 
-Given an FSA description in the fsa.txt (see input file format) your program should output the result.txt containing an error description (see validation result) or a report, indicating if FSA is complete (or incomplete) and warning (see warning messages) if any. Warnings should be sorted according to their code. 
-Validation result
-Errors:
-E1: A state 's' is not in the set of states
-E2: Some states are disjoint
-E3: A transition 'a' is not represented in the alphabet
-E4: Initial state is not defined
-E5: Input file is malformed
-Report:
-FSA is complete/incomplete
-Warnings:
-W1: Accepting state is not defined
+Given an FSA description in the fsa.txt (see input file format) your program should output the result.txt containing an error description (see validation result) or a report, indicating if FSA is complete (or incomplete) and warning (see warning messages) if any. Warnings should be sorted according to their code. <br>
+Validation result<br>
+Errors:<br>
+E1: A state 's' is not in the set of states<br>
+E2: Some states are disjoint<br>
+E3: A transition 'a' is not represented in the alphabet<br>
+E4: Initial state is not defined<br>
+E5: Input file is malformed<br>
+Report:<br>
+FSA is complete/incomplete<br>
+Warnings:<br>
+W1: Accepting state is not defined<br>
 W2: Some states are not reachable from the initial state
 W3: FSA is nondeterministic
 Input file format
@@ -40,6 +40,6 @@ init.st=[off]
 fin.st=[]
 trans=[off>turn_on>on,on>turn_off>off]
 result.txt
-FSA is incomplete
+FSA is incomplete<br>
 Warning:
 W1: Accepting state is not defined
