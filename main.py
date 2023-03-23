@@ -1,5 +1,5 @@
 dictionary = {}
-adj_list = {}  # create empty adjacency list
+adj_list = {}  # create empty adjacency lis
 adj_list_directed = {}
 adj_list_undirected = {}
 
