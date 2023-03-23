@@ -13,14 +13,14 @@ FSA is complete/incomplete<br>
 Warnings:<br>
 W1: Accepting state is not defined<br>
 W2: Some states are not reachable from the initial state<br>
-W3: FSA is nondeterministic<br>
+W3: FSA is nondeterministic<br><br>
 Input file format<br>
 states=[s1,s2,...]	  // s1 , s2, ... ∈ latin letters, words and numbers<br>
 alpha=[a1,a2, ...]	  // a1 , a2, ... ∈ latin letters, words, numbers and character '_’(underscore)<br>
 init.st=[s]	  // s ∈ states<br>
 fin.st=[s1,s2,...]	  // s1, s2 ∈ states<br>
 trans=[s1>a>s2,... ]<br>
-  // s1,s2,...∈ states; a ∈ alpha<br>
+  // s1,s2,...∈ states; a ∈ alpha<br><br>
 Example 1<br>
 fsa.txt<br>
 states=[on,off]<br>
@@ -31,7 +31,7 @@ trans=[off>turn_on>off,on>turn_off>on]<br>
 result.txt<br>
 Error:<br>
 E2: Some states are disjoint<br>
-<br>
+<br><br>
 Example 2<br>
 fsa.txt<br>
 states=[on,off]<br>
