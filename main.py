@@ -1,9 +1,9 @@
 dictionary = {}
-adj_list = {}  # create empty adjacency lis
+adj_list = {}  # create empty adjacency list
 adj_list_directed = {}
 adj_list_undirected = {}
 
-
+# Vladislav Grigorev
 def inputData():
     global dictionary
     with open("fsa.txt", "r") as f:
